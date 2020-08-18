@@ -3,37 +3,18 @@
 [![GitHub stars](https://img.shields.io/github/stars/Cartucho/OpenLabeling.svg?style=social&label=Stars)](https://github.com/Cartucho/OpenLabeling)
 
 Image labeling in multiple annotation formats:
-- PASCAL VOC (= [darkflow](https://github.com/thtrieu/darkflow))
 - [YOLO darknet](https://github.com/pjreddie/darknet)
-- ask for more (create a new issue)...
 
 <img src="https://media.giphy.com/media/l49JDgDSygJN369vW/giphy.gif" width="40%"><img src="https://media.giphy.com/media/3ohc1csRs9PoDgCeuk/giphy.gif" width="40%">
 <img src="https://media.giphy.com/media/3o752fXKwTJJkhXP32/giphy.gif" width="40%"><img src="https://media.giphy.com/media/3ohc11t9auzSo6fwLS/giphy.gif" width="40%">
 
-## Latest Features
-
-- Jun 2019: Deep Learning Object Detection Model
-- May 2019: [ECCV2018] Distractor-aware Siamese Networks for Visual Object Tracking
-- Jan 2019: easy and quick bounding-boxe's resizing!
-- Jan 2019: video object tracking with OpenCV trackers!
-- TODO: Label photos via Google drive to allow "team online labeling".
-[New Features Discussion](https://github.com/Cartucho/OpenLabeling/issues/3)
 
 ## Table of contents
 
-- [Quick start](#quick-start)
 - [Prerequisites](#prerequisites)
 - [Run project](#run-project)
 - [GUI usage](#gui-usage)
 - [Authors](#authors)
-
-## Quick start
-
-To start using the YOLO Bounding Box Tool you need to [download the latest release](https://github.com/Cartucho/OpenLabeling/archive/v1.3.zip) or clone the repo:
-
-```
-git clone --recurse-submodules git@github.com:Cartucho/OpenLabeling.git
-```
 
 ### Prerequisites
 
@@ -55,8 +36,6 @@ Alternatively, you can install everything at once by simply running:
 python -mpip install -U pip
 python -mpip install -U -r requirements.txt
 ```
-- [PyTorch](https://pytorch.org/get-started/locally/) 
-    Visit the link for a configurator for your setup.
     
 ### Run project
 
