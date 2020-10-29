@@ -40,6 +40,9 @@ Step by step:
   4. Run the code:
   5. You can find the annotations in the folder **output/**
 
+         python3 main.py
+         
+         
          python3 main.py [-h] [-i] [-o] [-t] [--tracker TRACKER_TYPE] [-n N_FRAMES]
 
          optional arguments:
