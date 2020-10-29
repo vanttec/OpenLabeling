@@ -79,6 +79,10 @@ Mouse:
 
 ### Label Custom Dataset
 
+Modify class names 
+
+    OpenLabeling/main/class_list.txt
+
 insert dataset on 
 
     OpenLabeling/main/input/
