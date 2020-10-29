@@ -20,21 +20,14 @@ Image labeling in multiple annotation formats:
 
 You need to install:
 
-- [Python](https://www.python.org/downloads/)
-- [OpenCV](https://opencv.org/) version >= 3.0
-    1. `python -mpip install -U pip`
-    1. `python -mpip install -U opencv-python`
-    1. `python -mpip install -U opencv-contrib-python`
+- [Python3]
+- [OpenCV] version >= 3.0
 - numpy, tqdm and lxml:
-    1. `python -mpip install -U numpy`
-    1. `python -mpip install -U tqdm`
-    1. `python -mpip install -U lxml`
-
-Alternatively, you can install everything at once by simply running:
-
+  
+Running Requirements.txt:
 ```
-python -mpip install -U pip
-python -mpip install -U -r requirements.txt
+python3 -mpip install -U pip
+python3 -mpip install -U -r requirements.txt
 ```
     
 ### Run project
@@ -47,7 +40,7 @@ Step by step:
   4. Run the code:
   5. You can find the annotations in the folder **output/**
 
-         python main.py [-h] [-i] [-o] [-t] [--tracker TRACKER_TYPE] [-n N_FRAMES]
+         python3 main.py [-h] [-i] [-o] [-t] [--tracker TRACKER_TYPE] [-n N_FRAMES]
 
          optional arguments:
           -h, --help                Show this help message and exit
@@ -56,10 +49,7 @@ Step by step:
           -t, --thickness           Bounding box and cross line thickness (int) | Default: -t 1
           --tracker tracker_type    tracker_type being used: ['CSRT', 'KCF','MOSSE', 'MIL', 'BOOSTING', 'MEDIANFLOW', 'TLD', 'GOTURN', 'DASIAMRPN']
           -n N_FRAMES               number of frames to track object for
-  To use DASIAMRPN Tracker:
-  1. Install the [DaSiamRPN](https://github.com/foolwood/DaSiamRPN) submodule and download the model (VOT) from [google drive](https://drive.google.com/drive/folders/1BtIkp5pB6aqePQGlMb2_Z7bfPy6XEj6H)
-  2. copy it into 'DaSiamRPN/code/'
-  3. set default tracker in main.py or run it with --tracker DASIAMRPN
+
 
 ### GUI usage
 
