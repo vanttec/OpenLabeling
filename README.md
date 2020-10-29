@@ -77,6 +77,16 @@ Mouse:
   - Use the middle mouse to zoom in and out
   - Use double click to select a bounding box
 
+### Label Custom Dataset
+
+insert dataset on 
+
+    OpenLabeling/main/input/
+
+Get output labeled data from
+
+    OpenLabeling/main/output/YOLO_darknet
+
 ## Authors
 
 * **João Cartucho** - Please give me your feedback: to.cartucho@gmail.com
